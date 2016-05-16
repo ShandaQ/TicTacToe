@@ -1,0 +1,72 @@
+body{
+ background-color: black;
+
+}
+#board {
+    width: 450px;
+    margin: 0 auto;
+    /*background: url(tablesurface2.jpg);
+    height: 500px;
+    margin-top: 35px;*/
+
+}
+
+#gameName{
+    margin-bottom: 50px;
+    color: white;
+    height: auto;
+    text-align: center;
+}
+
+#firstRow, #secondRow{
+  border-bottom: 1px solid white;
+
+}
+
+.col-md-4.firstCol, .col-md-4.secondCol, .col-md-4.thirdCol{
+  border-right: 1px solid white;
+}
+
+
+
+.square{
+    /*border: 5px dotted white;*/
+    width: 97%;
+    height: 100px;
+    display: block;
+    /*margin: 5px;*/
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 4em;
+}
+button:focus {
+    outline:0;
+}
+
+#gameContollers{
+  text-align: center;
+}
+#plagAgain, #resetBoard{
+  border: 3px solid #00FF22;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 2em;
+  margin: 10px;
+  height: 57%;
+  display: inline;
+  color: #333;
+
+}
+
+#scoreBoard{
+  border: 2px solid #00FF22;
+  border-radius: 5px;
+  /* width: 65%; */
+  /* height: 50%; */
+  /* margin-left: 100px; */
+  margin-top: 50px;
+  font-size: 4em;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" text="text/css" href="style.css">
+    <link rel="stylesheet" text="text/css" href="animate.css">
+
+  </head>
+  <body class="bounceInLeft">
+    <div id="board" class="container">
+      <h1 id="gameName">Tic Tac Toe</h1>
+      <div id="gameBoard">
+        <div id="firstRow" class="row">
+          <div class="col-md-4 firstCol">
+            <button id="a1" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4 firstCol">
+            <button id="a2" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4">
+            <button id="a3" class="square" type="button"></button>
+          </div>
+        </div>
+
+        <div id="secondRow" class="row">
+          <div class="col-md-4 secondCol">
+            <button id="b1" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4 secondCol">
+            <button id="b2" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4">
+          <button id="b3" class="square" type="button"></button>
+          </div>
+        </div>
+
+        <div id="thirdRow" class="row">
+          <div class="col-md-4 thirdCol">
+            <button id="c1" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4 thirdCol">
+            <button id="c2" class="square" type="button"></button>
+          </div>
+          <div class="col-md-4">
+            <button id="c3" class="square" type="button"></button>
+          </div>
+        </div>
+      </div>
+
+      <div id="scoreBoard" class="row">
+        <div class="col-md-12">
+          <label>Player O : <span id="playerOScore"></span></label>
+          <label>Player X : <span id="playerXScore"></span></label>
+        </div>
+      </div>
+
+      <div id="gameContollers">
+        <button type="button" id="plagAgain">Play Again</button>
+        <button type="button" id="resetBoard">Reset</button>
+      </div>
+    </div>
+
+
+
+    <script src="jquery.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
